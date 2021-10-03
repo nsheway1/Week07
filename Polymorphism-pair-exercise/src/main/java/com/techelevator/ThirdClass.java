@@ -2,6 +2,7 @@ package com.techelevator;
 
 public class ThirdClass extends DeliveryType{
     public ThirdClass(int distance, double weight){
+
         super(distance,weight);
     }
 
@@ -21,5 +22,11 @@ public class ThirdClass extends DeliveryType{
             return distance * 0.0170;
         }
 
+    }
+
+
+    @Override
+    public String toString() {
+        return "Postal Service (3rd Class)";
     }
 }

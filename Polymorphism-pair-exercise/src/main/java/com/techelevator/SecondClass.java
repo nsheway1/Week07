@@ -23,4 +23,10 @@ public class SecondClass extends DeliveryType{
         }
 
     }
+
+
+    @Override
+    public String toString() {
+        return "Postal Service (2nd Class)";
+    }
 }

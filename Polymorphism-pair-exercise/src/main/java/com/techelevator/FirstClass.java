@@ -21,6 +21,10 @@ public class FirstClass extends DeliveryType {
         }else {
             return distance * 0.5;
         }
+    }
 
+    @Override
+    public String toString() {
+        return "Postal Service (1st Class)";
     }
 }
