@@ -1,4 +1,4 @@
-package com.techelevator;
+package coolcalculator;
 
 public class Truck implements Vehicle {
 
